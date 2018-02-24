@@ -10,5 +10,6 @@
 
 ## 唯品会 
 
-1. (https://github.com/eczn)[@eczn] / (@eczn/2017/记一次 Web 前端实习面试.md)[记一次 Web 前端实习面试]
+1. [@eczn/2017/记一次 Web 前端实习面试.md](记一次 Web 前端实习面试)
+
 
