@@ -20,3 +20,17 @@ script标签中的async属性：构建DOM树、渲染树的过程和js文件的�
 2. css 应该放在 head 里加载，否则如果 css 很大，加载慢，那么页面首先会是 裸html 的页面，随后才加载好 css 不好看 
 3. 现代的浏览器很厉害，执行和下载是两个步骤，即使被 js 文件阻塞，但是 css, html 的下载还会进行 (prefetch)。 
 
+
+--- 
+
+以下是面试过程中遇到过的
+
+## @import 引入 css 和用 link 标签引入 css 有什么不同? 
+
+1. link 不只用来引入 css，还可以做其他事，比如定义网站图标；而 @import 只能引入 css
+2. link 引入 css 的时候，会阻塞浏览器；而 @import 要等到页面完全载入之后再加载 
+
+
+## CSS 预处理器里的 @import 跟 CSS 原生的 @import 的区别
+
+
